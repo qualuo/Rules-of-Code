@@ -2,13 +2,13 @@
 
 This document outlines the rules and best practices for structuring code within **Power Platform**, specifically for **Power Apps** and **Power Automate**. Following these guidelines will help maintain code quality, improve maintainability, and ensure your apps and flows are efficient, scalable, and secure.
 
----
+
 
 ## Table of Contents
 
 1. [General Best Practices](#general-best-practices)
 
----
+
 
 ## General Best Practices
 
@@ -17,7 +17,7 @@ This document outlines the rules and best practices for structuring code within 
 - **No display names**: To avoid confusion, use as few aliases as possible. Ideally, stick to an exact name and do not invent new ones. Using variations such as `users`, `Users`, `user`, `User`, for the same exact same entity WILL cause chaos.
 - **Clear Descriptions**: Always provide meaningful comments and descriptions that help others understand the train of thought. Think of others!
 
----
+
 
 ## Power Apps
 
@@ -33,7 +33,8 @@ This document outlines the rules and best practices for structuring code within 
 ### Performance Optimization
 - **Data Caching**: Consider using local variables to cache data temporarily instead of repeatedly querying a data source where possible.
 - **Avoid Large Collections**: Large collections can negatively impact performance. Always consider pagination or delegation when working with large datasets.
----
+
+
 
 ## Power Automate
 

@@ -6,9 +6,9 @@ This document outlines the rules and best practices for structuring code within 
 
 ## Table of Contents
 
-*[General Best Practices](#general-best-practices)
-*[Power Apps](#power-apps)
-*[Power Automate](#power-automate)
+* [General Best Practices](#general-best-practices) 
+* [Power Apps](#power-apps) 
+* [Power Automate](#power-automate) 
 
 
 
